@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: "Roboto", sans-serif;
+    font-family: "DM Sans", sans-serif;
 }
 
  /* Nav header section */
@@ -92,7 +92,7 @@ span{
 .image-overlay{
     position: absolute;
     top: 20px;
-    margin-left: 1035px;
+    padding-left: 1035px;
 }
 .image-style{
     width: 1345px;
@@ -451,4 +451,137 @@ input{
     color: #737373;
     background-color: #f3f4f6;
     text-align: center;
+}
+
+
+@media(width < 768px){
+
+     /* Nav header section */
+  
+     
+.nav-header{
+    height: 150px;
+    width: 1015px;
+    padding: 10px 0px 20px 5px;
+    background-color: #2887ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-header-child{
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-left: 15px;
+}
+.nav-section-link{
+    color: #ffffff;
+    gap: 20px;
+    padding-top: 15px;
+}
+
+     /* <!-- Home section --> */
+.image-container{
+    margin: 17px 8px 17px 8px;
+    position: relative;
+    width: 1000px;
+}
+.home-image-container{
+    height: 680px;
+}
+.text-overlay{
+    top: 70px;
+    margin-left: 55px;
+    /* text-align: center; */
+    font-size: 40px;
+    
+}
+.flight-icon{
+    padding-right: 220px;
+} 
+.button-overlay{
+    top: 210px;
+    margin-left: 250px;
+    position: absolute;
+}
+.image-overlay{
+    /* position: absolute; */
+     right: 300px;
+     top: 420px;
+}
+.image-style{
+    width: 565px;
+    height: 250px;
+}
+
+   /* <!-- About section --> */
+
+.about-section{
+    padding-bottom: 30px;
+}   
+.image-flex{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem 1rem;
+    margin-top: 64px;
+    padding-left: 70px;
+    padding-right: 40px;
+}
+.about-image{
+    width: 200px;
+    height: 120px;
+}  
+
+    /* <!-- Tour section --> */
+
+
+.tour-journey{
+    padding-right: 90px;   
+ }
+.tour-adventure{
+    padding-right: 170px;
+}
+.tour-section-box{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem 1rem;
+}
+.tour-section-box1{
+    width: 250px;
+    height: 150px;
+    margin-left: 50px;
+    padding-top: 120px;
+}
+.tour-section-box2{
+    width: 250px;
+    height: 150px;
+    padding-top: 120px;
+}
+.tour-section-box3{
+    width: 250px;
+    height: 150px;
+    margin-left: 50px;
+    padding-top: 120px;
+}
+
+
+   /* package section --> */
+
+.package-child-one{
+    height: 350px;
+    width: 250px;
+    margin-top: 210px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
