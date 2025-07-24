@@ -11,7 +11,7 @@ body{
 
 .nav-header{
     padding: 30px;
-    display: flex; 
+    display: flex;
     justify-content: space-evenly;
     color: #2887ff;
 }
