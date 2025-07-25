@@ -16,7 +16,7 @@ body{
     color: #2887ff;
 }
 .nav-header-child{
-    margin-left: 350px;
+    margin-left: 200px;
     padding-top: 10px;
     cursor: pointer;
 }
@@ -27,7 +27,39 @@ body{
     align-items: center;
     font-weight: bold;
     cursor: pointer;
+    transition: transform 0.3s ease-in-out;
 }
+ .nav1{
+    transition: transform 0.3s ease-in-out;
+ }
+ .nav1:hover{
+    transform: scale(1.1);
+ }
+ .nav2{
+    transition: transform 0.3s ease-in-out;
+ }
+ .nav2:hover{
+    transform: scale(1.1);
+ }
+ .nav3{
+    transition: transform 0.3s ease-in-out;
+ }
+ .nav3:hover{
+    transform: scale(1.1);
+ }
+ .nav4{
+    transition: transform 0.3s ease-in-out;
+ }
+ .nav4:hover{
+    transform: scale(1.1);
+ }
+ .nav5{
+    transition: transform 0.3s ease-in-out;
+ }
+ .nav5:hover{
+    transform: scale(1.1);
+ }
+
 .nav-button{
     color: #2887ff;
     margin-right: 300px;
@@ -46,19 +78,28 @@ body{
 
 .image-container{
     position: relative; 
-} 
-.home-image-container{
+    background-image: url(assets/header-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    width: 98%;
+    border-radius: 40px;
+    margin-left: 15px;
+    margin-right: 10px;
+}  
+
+/* .home-image-container{
     width: 100%; 
     height: 650px;
     object-fit: cover;
     border-radius: 50px;
     padding-left: 10px;
     padding-right: 10px;
-} 
+}  */
 .text-overlay{
     position: absolute;
     top: 150px;
-    margin-left: 620px;
+    margin-left: 380px;
     font-weight: bold; 
 }
 h1{
@@ -75,7 +116,7 @@ span{
     font-size: 65px;
 }
 .button-overlay{
-    border: 3px solid black;
+    border: 1px solid black;
     padding: 15px 35px;
     color: white;
     background-color: #2887ff;
@@ -86,18 +127,18 @@ span{
     margin-top: 30px;
     cursor: pointer;
 }
+
 .button-overlay:hover{
     background-color: #2476da;
 }
 .image-overlay{
-    position: absolute;
-    top: 20px;
-    padding-left: 1035px;
-}
-.image-style{
-    width: 1345px;
-    height: 620px;
-    margin-top: 10px;
+    background-image: url(assets/header.png);
+    background-size: 1500px;
+    position: relative;
+    height: 700px;
+    width: 1090px;
+    margin-left: 800px;
+    top: 10px;
 }
 
  
@@ -457,66 +498,64 @@ input{
 @media(width < 768px){
 
      /* Nav header section */
-  
+
      
 .nav-header{
-    height: 150px;
-    width: 1015px;
+    height: 60px;
+    width:100%;
     padding: 10px 0px 20px 5px;
     background-color: #2887ff;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 20px;
 }
 .nav-header-child{
-    font-size: 1.5rem;
+    font-size: 17px;
     color: #ffffff;
-    margin-left: 15px;
+    margin-left: 20px;
 }
 .nav-section-link{
     color: #ffffff;
-    gap: 20px;
+    font-size: 10px;
     padding-top: 15px;
+}
+.nav-button{
+    font-size: 10px;
+    margin-right: 20px;
 }
 
      /* <!-- Home section --> */
+
+
 .image-container{
-    margin: 17px 8px 17px 8px;
-    position: relative;
-    width: 1000px;
-}
-.home-image-container{
-    height: 680px;
+    margin-right: 70px;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 95%;
+    height: 800px;
 }
 .text-overlay{
-    top: 70px;
-    margin-left: 55px;
-    /* text-align: center; */
-    font-size: 40px;
-    
-}
-.flight-icon{
-    padding-right: 220px;
-} 
-.button-overlay{
-    top: 210px;
-    margin-left: 250px;
-    position: absolute;
+    margin-left: 150px;
+    top: 75px;
+    text-align: center;
 }
 .image-overlay{
-    /* position: absolute; */
-     right: 300px;
-     top: 420px;
+    height: 290px;
+    width: 660px;
+    margin-left: 5px;
+    top: 500px;
+    background-size: 660px;
+
 }
-.image-style{
-    width: 565px;
-    height: 250px;
-}
+
+
 
    /* <!-- About section --> */
 
 .about-section{
     padding-bottom: 30px;
+    text-align: center;
 }   
 .image-flex{
     display: grid;
@@ -569,8 +608,105 @@ input{
 .package-child-one{
     height: 350px;
     width: 250px;
-    margin-top: 210px;
+    margin-top: 140px;
+    margin-right: 50px;
 }
+.package-section-parent{
+    margin-left: 30px;
+}
+.right-side-package{
+    font-size: 20px;
+}
+.package-child-two{
+    width: 280px;
+    margin-right: 50px;
+}
+.right-side-package{
+    width: 480px;
+}
+.right-side-paragraph-two{
+    margin-top: 10px;
+}
+.package-section-parent-two{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem 1rem;
+    padding-left: 50px;
+}
+.package-box{
+    width: 300px;
+    height: 200px;
+    
+}
+
+     /* Discover section */
+
+
+.discover-div{
+    padding-left: 50px;
+}
+.discover-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem 1rem;
+    margin-right: 130px;
+    gap: 20px;
+}
+.discover-section-child{
+    width: 300px;
+    height: 300px;
+    margin-right: 40px;
+}
+
+
+       /* Contact section */
+
+.contact-parent{
+    width: 600px;
+}  
+.contact-parent-two{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem 1rem;
+    margin-bottom: 500px;
+    margin-right: 120px;
+}    
+.contact-flex{
+    width: 300px;
+    height: 350px;
+    margin-right: 30px;
+}
+.contact-paragraph{
+    height: 250px;
+}
+.contact-paragraph{
+    line-height: 15px;
+}
+
+
+         /* footer section */
+
+
+ .footer-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px;
+ } 
+ .footer-div-1{
+    margin-left: 200px;
+ }
+ .footer-div-3{
+    margin-left: 200px;
+    width: 250px;
+ }  
+ .footer-div-4{
+    margin-right: 160px;
+ }   
+ .footer-button{
+    padding: 15px 125px;
+ }  
+  
+       
 
 
 
