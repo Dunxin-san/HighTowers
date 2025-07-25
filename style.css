@@ -495,7 +495,7 @@ input{
 }
 
 
-@media(width < 768px){
+@media(max-width: 768px){
 
      /* Nav header section */
 
@@ -705,19 +705,231 @@ input{
  .footer-button{
     padding: 15px 125px;
  }  
-  
-       
+
+}
 
 
+ @media(max-width: 360px){
+
+     /* Nav header section */
+
+     
+.nav-header{
+    height: 60px;
+    width:600px;
+    padding: 10px 0px 20px 5px;
+    background-color: #2887ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.nav-header-child{
+    font-size: 17px;
+    color: #ffffff;
+    margin-left: 20px;
+}
+.nav-section-link{
+    color: #ffffff;
+    font-size: 10px;
+    padding-top: 15px;
+}
+.nav-button{
+    font-size: 10px;
+    margin-right: 20px;
+}
+
+/* <!-- Home section --> */
 
 
+.image-container{
+    margin-right: 70px;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 550px;
+    height: 800px;
+}
+.text-overlay{
+    margin-left: 70px;
+    top: 75px;
+    text-align: center;
+}
+.image-overlay{
+    height: 230px;
+    width: 500px;
+    margin-left: 25px;
+    top: 500px;
+    background-size: 500px;
+}
+/* <!-- About section --> */
+
+.about-section{
+    padding-bottom: 30px;
+    margin-left: 35px; 
+    width: 500px;
+}   
+.image-flex{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem 1rem;
+    margin-top: 64px;
+    padding-left: 200px;
+    padding-right: 0px;
+}
+.about-image{
+    width: 200px;
+    height: 120px;
+}  
+
+ /* <!-- Tour section --> */
+
+.tour-section{
+    padding-left: 50px;
+    width: 600px;
+}
+.tour-adventure{
+    padding-right: 170px;
+}
+.tour-section-box{
+display: flex;
+flex-direction: column;
+}
+.tour-section-box1{
+    width: 400px;
+    height: 150px;
+    margin-left: 85px;
+    padding-top: 120px;
+}
+.tour-section-box2{
+    width: 400px;
+    height: 150px;
+    margin-left: 85px;
+    padding-top: 120px;
+}
+.tour-section-box3{
+    width: 400px;
+    height: 150px;
+    margin-left: 85px;
+    padding-top: 120px;
+}
+ /* package section --> */
+
+.package-child-one{
+    height: 500px;
+    width: 400px;
+    margin-top: 140px;
+    margin-left: 60px;
+}
+.package-section-parent{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.right-side-package{
+    font-size: 20px;
+}
+.package-child-two{
+    width: 400px;
+    margin-left: 60px;
+}
+.right-side-package{
+    width: 480px;
+}
+.right-side-paragraph-two{
+    margin-top: 10px;
+}
+.package-section-parent-two{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+.package-box{
+    width: 450px;
+    height: 200px;
+    margin-left: 15px;
+}
+
+  /* Discover section */
 
 
+.discover-parent{
+    text-align: center;
+    width: 500px;
+  }
+.discover-div{
+    padding-left: 50px;
+}
+.discover-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-right: 130px; */
+    gap: 20px;
+}
+.discover-section-child{
+    width: 400px;
+    height: 300px;
+    margin-left: 250px; 
+}
 
 
+/* Contact section */
+
+.contact-parent{
+    width: 500px;
+}  
+.contact-parent-two{
+    display: flex;
+    flex-direction: column;
+    margin-top: 450px;
+    width: 500px;
+    align-items: center;
+}    
+.contact-flex{
+    width: 400px;
+    height: 350px;
+}
+.contact-paragraph{
+    height: 250px;
+}
+.contact-paragraph{
+    line-height: 15px;
+}
 
 
+ /* footer section */
 
 
+ .footer-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 600px;
+ } 
+ .footer-div-1{
+    margin-left: 10px;
+    width: 400px;
+
+ }
+ .footer-div-2{
+    margin-left: 10px;
+    width: 400px;
+
+ }
+ .footer-div-3{
+    margin-left: 10px;
+    width: 400px;
+ }  
+ .footer-div-4{
+    margin-left: 140px;
+    width: 400px;
+ }  
+ .footer-button{
+    padding: 15px 125px;
+ }  
+
+.last-section{
+    width: 600px;
+}
 
 }
