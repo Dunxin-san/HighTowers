@@ -117,19 +117,24 @@ span{
 }
 .button-overlay{
     border: 1px solid black;
-    padding: 15px 35px;
+    padding: 20px 35px;
     color: white;
     background-color: #2887ff;
     border-radius: 30px;
     font-weight: bold;
     font-size: 16px;
     border: none;
-    margin-top: 30px;
+    margin-top: 50px;
     cursor: pointer;
 }
 
 .button-overlay:hover{
     background-color: #2476da;
+}
+.fa-circle-play{
+    font-size: 35px;
+    color: #2887ff;
+    margin-left: 10px;
 }
 .image-overlay{
     background-image: url(assets/header.png);
@@ -171,8 +176,24 @@ h5{
 } 
 .about-image:hover{
     transition: transform 0.3s ease-in-out;
-    box-shadow: rgba(0, 0, 0, 0.2) 20px 20px 40px;
+    box-shadow: rgba(0, 0, 0, 0.2) 20px 20px 40px;   
+}
+.fa-star{
+    color: white;
+    font-size: 15px;
     
+}
+.about-icon{
+    background-color: #2887ff;
+    padding: 5px 5px;
+    width: 60px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 16px;
+    margin-left: 180px;
+    position: relative;
+    bottom: 45px;
+    color: white;
 }
 .image-text{
     text-align: left;
@@ -215,7 +236,7 @@ h5{
     margin-left: 110px;
     border-radius: 30px;
     background-color: #f3f4f6;
-    padding-top: 135px;
+    padding-top: 30px;
     padding-left: 25px;
 }
 .tour-section-box2{
@@ -223,7 +244,7 @@ h5{
     width: 380px;
     border-radius: 30px;
     background-color: #f3f4f6;
-    padding-top: 135px;
+    padding-top: 30px;
     padding-left: 25px;
 }
 .tour-section-box3{
@@ -231,8 +252,14 @@ h5{
     width: 380px;
     border-radius: 30px;
     background-color: #f3f4f6;
-    padding-top: 135px;
+    padding-top: 30px;
     padding-left: 25px;
+}
+.tour-icon{
+    color: #2887ff;
+    padding-bottom: 80px;
+    
+
 }
 
 /* package section */
@@ -318,7 +345,7 @@ h5{
  }
 
  .discover-div{
-    padding-left: 670px;
+    padding-left: 430px;
  }
 
 .discover-section{
@@ -335,10 +362,22 @@ h5{
     border-color: #2887ff;
     border-radius: 16px;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 30px;
  }
  .discover-section-child:hover{
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+ }
+ .discover-icon{
+    height: 50px;
+    width: 50px;
+    background-color: #2887ff;
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    border-radius: 32px;
+    margin-bottom: 10px;
+    margin-left: 160px;
+
  }
  .discover-section-font{
     font-size: 20px;
